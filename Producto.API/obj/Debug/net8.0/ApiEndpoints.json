@@ -1,0 +1,178 @@
+[
+  {
+    "ContainingType": "Producto.API.Controllers.ProductoController",
+    "Method": "ActualizarProducto",
+    "RelativePath": "api/productos/ActualizarProducto/{idProducto}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProducto",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "NombreProducto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Categoria",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrecioBase",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImagenProducto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CantidadProducto",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "nuevaImagen",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Producto.API.Controllers.ProductoController",
+    "Method": "AgregarProducto",
+    "RelativePath": "api/productos/AgregarProducto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NombreProducto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Categoria",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrecioBase",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descripcion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImagenProducto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdSubastador",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CantidadProducto",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagen",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Producto.API.Controllers.ProductoController",
+    "Method": "EliminarProducto",
+    "RelativePath": "api/productos/EliminarProducto/{idProducto}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProducto",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Producto.API.Controllers.ProductoController",
+    "Method": "getProductoPorId",
+    "RelativePath": "api/productos/GetProductoPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProducto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Producto.API.Controllers.ProductoController",
+    "Method": "GetProductosPorCategoria",
+    "RelativePath": "api/productos/GetProductosPorCategoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Producto.API.Controllers.ProductoController",
+    "Method": "GetProductosPorIdSubastador",
+    "RelativePath": "api/productos/GetProductosPorIdSubastador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idSubastador",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Producto.API.Controllers.ProductoController",
+    "Method": "GetTodosLosProductos",
+    "RelativePath": "api/productos/GetTodosLosProductos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

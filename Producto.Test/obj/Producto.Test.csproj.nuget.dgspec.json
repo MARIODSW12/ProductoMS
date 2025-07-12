@@ -1,0 +1,516 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Test\\Producto.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.API\\Producto.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.API\\Producto.API.csproj",
+        "projectName": "Producto.API",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.API\\Producto.API.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Application\\Producto.Application.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Application\\Producto.Application.csproj"
+              },
+              "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\Producto.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\Producto.Domain.csproj"
+              },
+              "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Infrastructure\\Producto.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Infrastructure\\Producto.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.5, )"
+            },
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Application\\Producto.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Application\\Producto.Application.csproj",
+        "projectName": "Producto.Application",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Application\\Producto.Application.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\Producto.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\Producto.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.5, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\Producto.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\Producto.Domain.csproj",
+        "projectName": "Producto.Domain",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\Producto.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Infrastructure\\Producto.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Infrastructure\\Producto.Infrastructure.csproj",
+        "projectName": "Producto.Infrastructure",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Infrastructure\\Producto.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Application\\Producto.Application.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Application\\Producto.Application.csproj"
+              },
+              "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\Producto.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\Producto.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.5, )"
+            },
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Test\\Producto.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Test\\Producto.Test.csproj",
+        "projectName": "Producto.Test",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Test\\Producto.Test.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.API\\Producto.API.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.API\\Producto.API.csproj"
+              },
+              "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Application\\Producto.Application.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Application\\Producto.Application.csproj"
+              },
+              "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\Producto.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Domain\\Producto.Domain.csproj"
+              },
+              "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Infrastructure\\Producto.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Desktop\\Desarrollo\\EntregaFinalDesarrollo\\Microservices\\ProductoMS\\Producto.Infrastructure\\Producto.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.5, )"
+            },
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

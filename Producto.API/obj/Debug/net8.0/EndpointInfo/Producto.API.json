@@ -1,0 +1,263 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Producto.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/productos/GetProductoPorId": {
+      "get": {
+        "tags": [
+          "Producto"
+        ],
+        "parameters": [
+          {
+            "name": "idProducto",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/productos/GetProductosPorCategoria": {
+      "get": {
+        "tags": [
+          "Producto"
+        ],
+        "parameters": [
+          {
+            "name": "categoria",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/productos/GetProductosPorIdSubastador": {
+      "get": {
+        "tags": [
+          "Producto"
+        ],
+        "parameters": [
+          {
+            "name": "idSubastador",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/productos/GetTodosLosProductos": {
+      "get": {
+        "tags": [
+          "Producto"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/productos/AgregarProducto": {
+      "post": {
+        "tags": [
+          "Producto"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "NombreProducto": {
+                    "type": "string"
+                  },
+                  "Categoria": {
+                    "type": "string"
+                  },
+                  "PrecioBase": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Descripcion": {
+                    "type": "string"
+                  },
+                  "ImagenProducto": {
+                    "type": "string"
+                  },
+                  "IdSubastador": {
+                    "type": "string"
+                  },
+                  "CantidadProducto": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "imagen": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "NombreProducto": {
+                  "style": "form"
+                },
+                "Categoria": {
+                  "style": "form"
+                },
+                "PrecioBase": {
+                  "style": "form"
+                },
+                "Descripcion": {
+                  "style": "form"
+                },
+                "ImagenProducto": {
+                  "style": "form"
+                },
+                "IdSubastador": {
+                  "style": "form"
+                },
+                "CantidadProducto": {
+                  "style": "form"
+                },
+                "imagen": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/productos/ActualizarProducto/{idProducto}": {
+      "patch": {
+        "tags": [
+          "Producto"
+        ],
+        "parameters": [
+          {
+            "name": "idProducto",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "NombreProducto": {
+                    "type": "string"
+                  },
+                  "Categoria": {
+                    "type": "string"
+                  },
+                  "PrecioBase": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Descripcion": {
+                    "type": "string"
+                  },
+                  "ImagenProducto": {
+                    "type": "string"
+                  },
+                  "CantidadProducto": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "nuevaImagen": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "NombreProducto": {
+                  "style": "form"
+                },
+                "Categoria": {
+                  "style": "form"
+                },
+                "PrecioBase": {
+                  "style": "form"
+                },
+                "Descripcion": {
+                  "style": "form"
+                },
+                "ImagenProducto": {
+                  "style": "form"
+                },
+                "CantidadProducto": {
+                  "style": "form"
+                },
+                "nuevaImagen": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/productos/EliminarProducto/{idProducto}": {
+      "delete": {
+        "tags": [
+          "Producto"
+        ],
+        "parameters": [
+          {
+            "name": "idProducto",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
