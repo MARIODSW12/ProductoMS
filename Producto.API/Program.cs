@@ -28,7 +28,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Registrar configuración de MongoDB
+// Registrar configuraciÃ³n de MongoDB
 builder.Services.AddSingleton<MongoWriteProductoDbConfig>();
 builder.Services.AddSingleton<MongoReadProductoDbConfig>();
 
@@ -88,7 +88,7 @@ EndpointConvention.Map<AgregarProductoEvent>(new Uri("queue:" + Environment.GetE
 EndpointConvention.Map<ActualizarProductoEvent>(new Uri("queue:" + Environment.GetEnvironmentVariable("RABBIT_QUEUE_ActualizarProducto")));
 EndpointConvention.Map<EliminarProductoEvent>(new Uri("queue:" + Environment.GetEnvironmentVariable("RABBIT_QUEUE_EliminarProducto")));
 
-// Configuración CORS permisiva
+// ConfiguraciÃ³n CORS permisiva
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -106,11 +106,9 @@ app.UseCors("AllowAll");
 
 //app.UseMiddleware<ExceptionHandlingMiddleware>();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 // Configure the HTTP request pipeline.
 /*app.UseSwagger();
