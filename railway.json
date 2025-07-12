@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "nixpacks",
+    "buildCommand": "dotnet restore Producto.API/Producto.API.csproj && dotnet publish Producto.API/Producto.API.csproj -c Release -o out"
+  },
+  "deploy": {
+    "startCommand": "dotnet out/Producto.API.dll"
+  }
+}
